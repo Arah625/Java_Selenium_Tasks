@@ -9,10 +9,13 @@
 3. Create new project. Using **Page Object Model** write test, which:
     - Opens up browser [^2].
     - Goes to website [Bankier](https://www.bankier.pl/)
-    - Navigates to -> **Rynki** -> **Surowce** -> Selects one mineral tab (e.g. **ZŁOTO**, **MIEDŹ**, **ROPA**) -> Clicks **więcej o surowcu**
+    - Navigates to -> **Rynki** -> **Surowce** and checks visibility of header **Bankier.pl** in top left corner of the website
+      ![image](https://user-images.githubusercontent.com/46853980/218198666-3883e644-8f4a-422c-9e3d-322dcb95f3df.png)
+    - Then selects one mineral tab (e.g. **ZŁOTO**, **MIEDŹ**, **ROPA**) -> Clicks **więcej o surowcu**
     - Retrieves price, currency and unit from header above the chart
-  ![image](https://user-images.githubusercontent.com/46853980/218053228-5674be7b-cc34-435d-84bb-186001652ef0.png)
+      ![image](https://user-images.githubusercontent.com/46853980/218053228-5674be7b-cc34-435d-84bb-186001652ef0.png)
     - Inserts retrieved data along with current date (in format **yyyy-MM-dd**) and time (in format **HH:mm:ss**) into previously created database
+    - Selects price from table and compares with value retrieved from website
 
 |   | price | currency | unit | creation_date | creation_time |
 |:---:|:---:|:---:|:---:|:---:|:---:|
