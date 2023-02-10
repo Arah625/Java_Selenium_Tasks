@@ -12,7 +12,7 @@
     - Navigates to -> **Rynki** -> **Surowce** -> Selects one mineral tab (e.g. **ZŁOTO**, **MIEDŹ**, **ROPA**) -> Clicks **więcej o surowcu**
     - Retrieves price, currency and unit from header above the chart
   ![image](https://user-images.githubusercontent.com/46853980/218053228-5674be7b-cc34-435d-84bb-186001652ef0.png)
-    - Inserts retrieved data along with current date (in format yyyy-MM-dd) and time (in format HH:mm:ss) into previously created database
+    - Inserts retrieved data along with current date (in format **yyyy-MM-dd**) and time (in format **HH:mm:ss**) into previously created database
 
 |   | price | currency | unit | creation_date | creation_time |
 |:---:|:---:|:---:|:---:|:---:|:---:|
