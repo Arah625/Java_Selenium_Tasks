@@ -25,4 +25,4 @@ Preferably please use Google Chrome as browser.
 >Remember to close connection to database after every use of the method that connects to it.
 
 [^1]: Setup database locally on your machine or cloud. The type of database does not matter you can choose **Postgres**, **Oracle**, **MySql** and so on.
-[^2]: Do not add webdrivers to \src files in the projects. Instead, create folder on your hard drive where you will keep drivers for all browsers and could reference in various projects.
+[^2]: Do not add webdrivers to \resources files in the projects. Instead, create folder on your hard drive where you will keep drivers for all browsers and could reference in various projects.
