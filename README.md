@@ -22,7 +22,7 @@
 Preferably please use Google Chrome as browser.
 
 > __Warning__
->Remember to close connection to database after every use of the method that connects to database.
+>Remember to close connection to database after every use of the method that connects to it.
 
 [^1]: Setup database locally on your machine or cloud. The type of database does not matter you can choose **Postgres**, **Oracle**, **MySql** and so on.
 [^2]: Do not add webdrivers to \src file. Instead, create folder on your hard drive where you will keep drivers for all browsers and could reference in various projects.
